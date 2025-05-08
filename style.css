@@ -1,0 +1,117 @@
+:root{
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey-700: hsl(0, 0%, 20%);
+  --grey-800: hsl(0, 0%, 12%);
+  --grey-900: hsl(0, 0%, 8%);
+  --font-1: 14px;
+  --font-2: 16px;
+  --font-3:24px;
+}
+
+
+.attribution {
+   font-size: 11px; text-align: center; 
+  }
+  .attribution a { 
+    color: hsl(228, 45%, 44%); 
+  }
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+body{
+  max-width: 1440px;
+  height: 100vh;
+  background-color: var(--grey-900);
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Inter";
+}
+.container{
+  background-color: var(--grey-800);
+  position: relative;
+  width: 340px;
+  height: 500px;
+  margin: 25px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.avatar-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+#avatar-icon{
+  border-radius: 50%;
+  width: 85px;
+  margin-top: 10px;
+}
+.info-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.name{
+  font-size: var(--font-3);
+  padding: 8px;
+}
+.location{
+  color: var(--green);
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+.bio{
+  font-size: 12px;
+  color: var(--white);
+}
+.card{
+  display: block;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  padding: 10px 0px;
+}
+a:hover{
+  color: var(--green);
+  transition: 2ms;
+}
+#github{
+  background-color: var(--grey-700);
+  width: 260px;
+  height: 35px;
+  text-align: center;
+}
+#Fem{
+  background-color: var(--grey-700);
+  width: 260px;
+  height: 35px;
+  text-align: center;
+}
+#LinkedIn{
+  background-color: var(--grey-700);
+  width: 260px;
+  height: 35px;
+  text-align: center;
+}
+#Twitter{
+  background-color: var(--grey-700);
+  width: 260px;
+  height: 35px;
+  text-align: center;
+}
+#Instagram{
+  background-color: var(--grey-700);
+  width: 260px;
+  height: 35px;
+  text-align: center;
+}
